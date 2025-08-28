@@ -1,4 +1,4 @@
-package Exercícios;
+package Exercicios;
 public class BreakRotulado {
     public static void main(String[] args) {
         int i = 0;
