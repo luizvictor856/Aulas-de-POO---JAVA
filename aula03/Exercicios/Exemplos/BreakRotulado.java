@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.Exemplos;
 public class BreakRotulado {
     public static void main(String[] args) {
         int i = 0;
