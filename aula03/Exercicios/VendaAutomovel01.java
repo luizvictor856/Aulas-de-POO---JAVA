@@ -15,6 +15,6 @@ os valores acumulados das categorias inferiores. */
 
 package Exercicios;
 
-public class Venda_auto01 {
+public class VendaAutomovel01 {
     
 }
