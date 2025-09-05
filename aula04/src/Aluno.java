@@ -1,8 +1,8 @@
 package model; //ele precisa reconhecer o pacote; 
 
 public class Aluno {
-   public String nome; // por padrao ele é protect (visivel apenas dentro do pacote)
-   public int idade;
+   private String nome; // por padrao ele é protect (visivel apenas dentro do pacote)
+   private int idade;
 
 
    public Aluno() {}
