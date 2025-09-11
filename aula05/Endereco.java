@@ -12,5 +12,25 @@ public class Endereco {
         return String.format ("Rua: %\n Cidade: %s", rua, cidade);
     }
 
-    //toDO getters and setters (devo criar)
+
+    // ----- GETTERS AND SETTERS ---- //
+
+
+    public String getRua () {
+        return email;
+    }
+
+    public void setRua (String Rua) {
+        this.email = email;
+    }
+
+    public String getCidade () {
+        return cidade;
+    }
+
+    public void setRua (String cidade) {
+        this.cidade = cidade;
+    }
+
+
 }

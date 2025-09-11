@@ -8,18 +8,21 @@ public class Contato {  // isso aqui é o "arroz c/ feijão"
 
     public Contato(String email, String telefone) {
         this.email = email;
-        this.telefone = telefone
+        this.telefone = telefone;
     }   // construtor
 
     public String mostrarContato () {
         return String.format("Email: %\nTelefone:%s", email, telefone);
     } 
 
-    public String getEmail() {
-        return email;
-    }                   // metodo publicos
+     // ------- GET AND SETTERS ------- //
 
-    public void setEmail (String email) { // aqui pode ter o choque nos nomes
+
+    public String getEmail() {              // metodo publicos
+        return email;
+    }                   
+
+    public void setEmail (String email) {    // aqui pode ter o choque nos nomes
         this.email = email;
 
     } // deve ser passado um parâmetro 
@@ -31,7 +34,7 @@ public class Contato {  // isso aqui é o "arroz c/ feijão"
 
 
     public void setTelefone (String telefone) {
-        this.telefone = telefone
+        this.telefone = telefone;
     }
 
 

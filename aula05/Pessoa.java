@@ -18,5 +18,5 @@ public class Pessoa {
         idade, cpf, contato, endereco);
     }
 
-    // fazer getters e setters tal como no CONTATO.JAVA 
+    // (devo criar) getters e setters tal como no CONTATO.JAVA 
 }
